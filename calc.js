@@ -14,4 +14,6 @@ function calc() {
     } else if (op == "mul") {
         calculate = a - b;
     }
+
+    console.log(calculate);
 }
