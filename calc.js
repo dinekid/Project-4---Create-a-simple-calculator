@@ -15,5 +15,5 @@ function calc() {
         calculate = a - b;
     }
 
-    console.log(calculate);
+    document.querySelector("#result").innerHTML = calculate;
 }
